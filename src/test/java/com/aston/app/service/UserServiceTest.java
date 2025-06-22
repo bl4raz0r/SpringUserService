@@ -1,9 +1,9 @@
-package service;
+package com.aston.app.service;
 
-import dto.UserDTO;
-import dto.UserResponseDTO;
-import model.User;
-import repository.UserRepository;
+import com.aston.app.dto.UserDTO;
+import com.aston.app.dto.UserResponseDTO;
+import com.aston.app.model.User;
+import com.aston.app.repository.UserRepository;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

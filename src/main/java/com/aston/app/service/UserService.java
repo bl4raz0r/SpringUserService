@@ -1,9 +1,9 @@
-package service;
+package com.aston.app.service;
 
-import model.User;
-import dto.UserDTO;
-import dto.UserResponseDTO;
-import repository.UserRepository;
+import com.aston.app.model.User;
+import com.aston.app.dto.UserDTO;
+import com.aston.app.dto.UserResponseDTO;
+import com.aston.app.repository.UserRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

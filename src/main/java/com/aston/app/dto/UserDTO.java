@@ -1,4 +1,4 @@
-package dto;
+package com.aston.app.dto;
 
 import lombok.Data;
 

@@ -1,13 +1,13 @@
-package controller;
+package com.aston.app.controller;
 
-import dto.UserDTO;
-import dto.UserResponseDTO;
+import com.aston.app.dto.UserDTO;
+import com.aston.app.dto.UserResponseDTO;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.UserService;
+import com.aston.app.service.UserService;
 
 import java.util.List;
 

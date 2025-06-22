@@ -1,4 +1,4 @@
-package model;
+package com.aston.app.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 public class User {@Id
 @GeneratedValue(strategy = GenerationType.IDENTITY)
-private long id;
+private Long id;
 
     @Column(name = "name")
     private String name;
